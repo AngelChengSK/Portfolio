@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angel Cheng</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="scripts.js" defer></script>
+  </head>
+  <body>
+    <nav class="nav-bar-container">
+      <ul class="nav-bar">
+        <li><a href="#about-me-section">ABOUT</a></li>
+        <li><a href="#projects-section">PROJECTS</a></li>
+        <li><a href="#contact-me-section">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="intro-section">
+        <div class="intro-content">
+          My name is <span>Angel</span><br />
+          I am a self-taught <span>front-end developer</span> 
+        </div>
+        <!-- <button class="download-btn">Download the resume</button> -->
+      </div>
+      <div id="about-me-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#dbf0ea" fill-opacity="1" d="M0,224L40,229.3C80,235,160,245,240,245.3C320,245,400,235,480,218.7C560,203,640,181,720,160C800,139,880,117,960,117.3C1040,117,1120,139,1200,133.3C1280,128,1360,96,1400,80L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+        <h2 class="about-me title">About me</h2>
+        <div class="divider"></div>
+        <div class="about-me-content">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione provident sit quasi ullam ipsum! Quo, deleniti esse obcaecati vero consectetur natus placeat facilis rem illum aperiam libero odio, laboriosam aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione provident sit quasi ullam ipsum! Quo.
+        </div>
+        <ul class="my-skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      </div>
+      <div id="projects-section">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,144C480,139,600,117,720,112C840,107,960,117,1080,117.3C1200,117,1320,107,1380,101.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <div class="projects title">Projects</div>
+        <div class="divider"></div>
+        <div class="projects-content-container">
+          <div class="project-container">
+            <img src="images/preview-furniture-app.png" alt="preview furniture app">
+            <div class="project-desc">E-COMMERCE WEBSITE</div>
+            <div class="overlay"></div>
+            <div class="learn-more-btn"><a href="/project detail pages/mf_details.html">LEARN MORE</a></div>
+          </div>
+          <div class="project-container">
+            <img src="images/preview-recipes-app.png" alt="preview recipes app">
+            <div class="project-desc">RECIPES APP</div>
+            <div class="overlay"></div>
+            <div class="learn-more-btn"><a href="/project detail pages/dr_details.html">LEARN MORE</a></div>
+          </div>
+          <div class="project-container">
+            <img src="images/preview-todo-app.png" alt="preview todo app">
+            <div class="project-desc">TODO APP</div>
+            <div class="overlay"></div>
+            <div class="learn-more-btn"><a href="/project detail pages/todo_details.html">LEARN MORE</a></div>
+          </div>
+        </div>
+      </div>
+      <div id="contact-me-section">
+        <div class="contact-me title">Contact me</div>
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">NAME:</label>
+            <input type="text" id="name" placeholder="Enter your name here" required>
+          </div>
+          <div class="form-row">
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" placeholder="Enter your email here" required>
+          </div>
+          <div class="form-row">
+            <label for="message">MESSAGE:</label>
+            <textarea name="message" cols="30" rows="3" placeholder="Enter your message here" required></textarea>
+          </div>
+          <button class="send-btn">SEND</button>
+        </form>
+      </div>
+    </main>
+    <!-- <footer>
+      <div>Angel Cheng © Jul 2022</div>
+    </footer> -->
+  </body>
+</html>
