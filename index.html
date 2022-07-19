@@ -7,11 +7,16 @@
     <title>Angel Cheng</title>
     <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e871ab8982.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="scripts.js" defer></script>
   </head>
   <body>
-    <nav class="nav-bar-container">
+    <nav class="nav-bar-container" data-nav-bar-container>
       <ul class="nav-bar">
+        <li><a href="#intro-section">HOME</a></li>
         <li><a href="#about-me-section">ABOUT</a></li>
         <li><a href="#projects-section">PROJECTS</a></li>
         <li><a href="#contact-me-section">CONTACT</a></li>
@@ -19,71 +24,176 @@
     </nav>
     <main>
       <div id="intro-section">
-        <div class="intro-content">
-          My name is <span>Angel</span><br />
-          I am a self-taught <span>front-end developer</span> 
+        <div class="intro-content md-font">
+          <span class="sm-font">HI THERE! I'M</span><br />
+          <span class="name lg-font"
+            ><span class="highlight">ANGEL </span>CHENG</span
+          >
+          A <span class="highlight">Front-End Developer</span> focused on creating beautiful applications and passionate about solving problems through code
         </div>
-        <!-- <button class="download-btn">Download the resume</button> -->
+        <div class="intro-links">
+          <button class="resume-btn">Resume</button>
+          <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/AngelChengSK" target="_blank"
+            ><i class="fa-brands fa-github-square"></i
+          ></a>
+        </div>
       </div>
       <div id="about-me-section">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#dbf0ea" fill-opacity="1" d="M0,224L40,229.3C80,235,160,245,240,245.3C320,245,400,235,480,218.7C560,203,640,181,720,160C800,139,880,117,960,117.3C1040,117,1120,139,1200,133.3C1280,128,1360,96,1400,80L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
-        <h2 class="about-me title">About me</h2>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#dbf0ea"
+            fill-opacity="1"
+            d="M0,224L40,229.3C80,235,160,245,240,245.3C320,245,400,235,480,218.7C560,203,640,181,720,160C800,139,880,117,960,117.3C1040,117,1120,139,1200,133.3C1280,128,1360,96,1400,80L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"
+          ></path>
+        </svg> -->
+        <h2 class="about-me title">ABOUT ME</h2>
         <div class="divider"></div>
         <div class="about-me-content">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione provident sit quasi ullam ipsum! Quo, deleniti esse obcaecati vero consectetur natus placeat facilis rem illum aperiam libero odio, laboriosam aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione provident sit quasi ullam ipsum! Quo.
+          <p>I'm a self-taught front-end developer with a working proficiency in
+          HTML, CSS and Javascript.</p>
+
+          <p>I developed an interest in coding while I am studying the Software and Information Systems Testing program. Front end development is all about the visual aspects of the website and I can see my code output right away, which is why I enjoy working on it.</p>
+
+          <p>
+            My goal is to continously grow as a web developer. I would love to
+            work alongside other amazing programmers that are truly passionate
+            about what they create.
+          </p>
         </div>
         <ul class="my-skills-list">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JS</li>
+          <li><img src="/images/html-logo.png" alt="html logo" /></li>
+          <li><img src="/images/css-logo.png" alt="css logo" /></li>
+          <li><img src="/images/js-logo.png" alt="javascript logo" /></li>
         </ul>
       </div>
       <div id="projects-section">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,128L60,133.3C120,139,240,149,360,144C480,139,600,117,720,112C840,107,960,117,1080,117.3C1200,117,1320,107,1380,101.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
-        <div class="projects title">Projects</div>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,128L60,133.3C120,139,240,149,360,144C480,139,600,117,720,112C840,107,960,117,1080,117.3C1200,117,1320,107,1380,101.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg> -->
+        <div class="projects title">PROJECTS</div>
         <div class="divider"></div>
         <div class="projects-content-container">
           <div class="project-container">
-            <img src="images/preview-furniture-app.png" alt="preview furniture app">
-            <div class="project-desc">E-COMMERCE WEBSITE</div>
-            <div class="overlay"></div>
-            <div class="learn-more-btn"><a href="/project detail pages/mf_details.html">LEARN MORE</a></div>
+            <img
+              src="images/preview-furniture-app.png"
+              alt="preview furniture app"
+            />
+            <div class="project-content">
+              <div class="project-title">modern furniture</div>
+              <ul class="project-technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>UI/UX design</li>
+              </ul>
+              <ul class="project-desc">
+                <li>A e-commerce website for furniture shop</li>
+                <li>Add/ edit/ remove shopping cart items</li>
+              </ul>
+              <div class="project-resources">
+                <button class="launch-btn"><a href="https://angelchengsk.github.io/E-commerce-app/" target="_blank">Launch site</a></button>
+                <a href="https://github.com/AngelChengSK/E-commerce-app" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <!-- <div class="overlay"></div> -->
+            <!-- <div class="learn-more-btn"><a href="/project detail pages/mf_details.html">LEARN MORE</a></div> -->
           </div>
           <div class="project-container">
-            <img src="images/preview-recipes-app.png" alt="preview recipes app">
-            <div class="project-desc">RECIPES APP</div>
-            <div class="overlay"></div>
-            <div class="learn-more-btn"><a href="/project detail pages/dr_details.html">LEARN MORE</a></div>
+            <img
+              src="images/preview-recipes-app.png"
+              alt="preview recipes app"
+            />
+            <div class="project-content">
+              <div class="project-title">Discover Recipes</div>
+              <ul class="project-technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>API</li>
+                <li>UI/UX design</li>
+              </ul>
+              <ul class="project-desc">
+                <li>A food recipes website</li>
+                <li>Search recipes using ingredients, recipes name, etc.</li>
+                <li>Categories list provided for discover of new recipes</li>
+                <li>Recommend random recipes based on previous search</li>
+                <li>View previous/ next recipe</li>
+              </ul>
+              <div class="project-resources">
+                <button class="launch-btn"><a href="https://angelchengsk.github.io/Recipe-app/" target="_blank">Launch site</a></button>
+                <a href="https://github.com/AngelChengSK/Todo-app" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
           </div>
           <div class="project-container">
-            <img src="images/preview-todo-app.png" alt="preview todo app">
-            <div class="project-desc">TODO APP</div>
-            <div class="overlay"></div>
-            <div class="learn-more-btn"><a href="/project detail pages/todo_details.html">LEARN MORE</a></div>
+            <img src="images/preview-todo-app.png" alt="preview todo app" />
+            <div class="project-content">
+              <div class="project-title">Todo App</div>
+              <ul class="project-technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>UI/UX design</li>
+              </ul>
+              <ul class="project-desc">
+                <li>A todo app</li>
+                <li>Add/ remove category</li>
+                <li>Add/ edit/ remove tasks</li>
+                <li>Filter by date/ completion status</li>
+                <li>Support module view or list view</li>
+              </ul>
+              <div class="project-resources">
+                <button class="launch-btn"><a href="https://angelchengsk.github.io/Todo-app/" target="_blank"> Launch site</a></button>
+                <a href="https://github.com/AngelChengSK/Recipe-app" target="_blank"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <div id="contact-me-section">
-        <div class="contact-me title">Contact me</div>
-        <form class="contact-form">
+        <div class="contact-me title">CONTACT ME</div>
+        <form class="contact-form" action=”https://formsubmit.co/angel514160084@gmail.com” method=”POST”>
           <div class="form-row">
             <label for="name">NAME:</label>
-            <input type="text" id="name" placeholder="Enter your name here" required>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name here"
+              required
+            />
           </div>
           <div class="form-row">
             <label for="email">EMAIL:</label>
-            <input type="email" id="email" placeholder="Enter your email here" required>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email here"
+              required
+            />
           </div>
           <div class="form-row">
             <label for="message">MESSAGE:</label>
-            <textarea name="message" cols="30" rows="3" placeholder="Enter your message here" required></textarea>
+            <textarea
+              name="message"
+              cols="30"
+              rows="3"
+              placeholder="Enter your message here"
+              required
+            ></textarea>
           </div>
-          <button class="send-btn">SEND</button>
+          <button class="send-btn">SEND MESSAGE</button>
         </form>
       </div>
     </main>
-    <!-- <footer>
-      <div>Angel Cheng © Jul 2022</div>
-    </footer> -->
+    <footer>
+      <div>© Angel Cheng 2022</div>
+    </footer>
   </body>
 </html>
