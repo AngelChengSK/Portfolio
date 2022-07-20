@@ -359,6 +359,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .contact-me.title {
@@ -413,6 +414,42 @@ textarea::placeholder {
   background-color: #014b45;
   color: white;
   border-radius: 3px;
+}
+
+.contact-form-message{
+  min-height: 70px;
+  background-color: white;
+  box-shadow: 0 5px 10px 0 grey;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 600;
+  display: none;
+}
+
+.contact-form-message.show{
+  display: flex;
+}
+
+.message-title{
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.error-message{
+  line-height: 1.3;
+  font-weight: 300;
+}
+
+.error-message>span{
+  font-weight: 600;
 }
 
 footer {
