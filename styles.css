@@ -207,8 +207,13 @@ main {
 }
 
 .my-skills-list > li {
+  text-align: center;
+}
+
+.my-skills-list > li > div {
   width: 80px;
   height: 80px;
+  margin-bottom: 20px;
   box-shadow: 0 5px 5px -2px lightgrey;
   color: white;
   border-radius: 50%;
@@ -310,6 +315,7 @@ main {
   list-style-type: disc;
   margin-left: 20px;
   font-size: 17px;
+  line-height: 1.2;
 }
 
 .project-desc > li:not(:last-of-type) {
@@ -416,7 +422,7 @@ textarea::placeholder {
   border-radius: 3px;
 }
 
-.contact-form-message{
+.contact-form-message {
   min-height: 70px;
   background-color: white;
   box-shadow: 0 5px 10px 0 grey;
@@ -431,11 +437,11 @@ textarea::placeholder {
   display: none;
 }
 
-.contact-form-message.show{
+.contact-form-message.show {
   display: flex;
 }
 
-.message-title{
+.message-title {
   font-weight: 900;
   margin-bottom: 15px;
   font-size: 18px;
@@ -443,12 +449,12 @@ textarea::placeholder {
   border-bottom: 1px solid lightgrey;
 }
 
-.error-message{
+.error-message {
   line-height: 1.3;
   font-weight: 300;
 }
 
-.error-message>span{
+.error-message > span {
   font-weight: 600;
 }
 
